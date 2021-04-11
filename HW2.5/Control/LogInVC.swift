@@ -19,7 +19,8 @@ class LogInVC: UIViewController {
         
     }
     
-    @IBAction func sendData(_ sender: Any) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let _: FinalVC = segue.destination as! FinalVC
         UserData.checkPas(login: login.text!, password: password.text!)
     }
     

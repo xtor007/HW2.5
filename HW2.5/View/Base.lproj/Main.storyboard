@@ -62,8 +62,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
-                                    <action selector="sendData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RbW-Tu-C9A"/>
-                                    <segue destination="Ldf-yT-Gh0" kind="show" id="7bW-hW-9C6"/>
+                                    <segue destination="Ldf-yT-Gh0" kind="show" id="rdg-Iz-Apy"/>
                                 </connections>
                             </button>
                         </subviews>
