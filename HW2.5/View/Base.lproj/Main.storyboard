@@ -8,16 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--FinalVC-->
         <scene sceneID="A5w-JO-kUl">
             <objects>
-                <viewController id="Ldf-yT-Gh0" sceneMemberID="viewController">
+                <viewController id="Ldf-yT-Gh0" customClass="FinalVC" customModule="HW2_5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VjV-s7-JE6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SX-Df-gaC">
-                                <rect key="frame" x="186" y="347.66666666666669" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SX-Df-gaC">
+                                <rect key="frame" x="186" y="311" width="42" height="94"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -31,10 +31,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jZm-tj-PZ2"/>
+                    <connections>
+                        <outlet property="resLable" destination="7SX-Df-gaC" id="5ah-oK-HNu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fG2-gh-RWi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="741" y="89"/>
+            <point key="canvasLocation" x="740.57971014492762" y="88.858695652173921"/>
         </scene>
         <!--Log InVC-->
         <scene sceneID="tne-QT-ifu">

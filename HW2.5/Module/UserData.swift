@@ -11,8 +11,15 @@ class UserData {
     
     static var isLogNorm = false
     static var isPasNorm = false
+    static var login = ""
     
-    func checkPas(login: String, password: String) {
-        
+    static func checkPas(login: String, password: String){
+        if AllData.data[login] != nil {
+            UserData.isLogNorm = true
+            if AllData.data[login] == password {
+                UserData.isPasNorm = true
+                UserData.login = login 
+            }
+        }
     }
 }
